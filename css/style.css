@@ -1,0 +1,100 @@
+p, h1 {
+	font-family: 'Public Sans', sans-serif;
+}
+
+/*NAVIGATION*/
+.navbar {
+	background-color:#242424;
+
+	border-bottom: 1px solid #b9b9b9;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar a {
+	color: #cccccc !important;
+}
+
+.navbar a:hover {
+	color: #ffffff !important;
+	background-color: #646464 !important;
+}
+
+
+
+/*HEADER*/
+
+.header {
+	padding: 70px 0 70px;
+	background: url(../img/fon7.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	border: 2px solid #c9c9c9;
+}
+
+.header h1{
+	color: black;
+	font-family: 'Pacifico', cursive;
+	font-size: 5em;
+}
+
+.header p{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1em;
+}
+
+@media(max-width: 768px;){
+	.header {
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	.header h1{
+		font-size: 4em;
+	}
+	.header p{
+		font-size: 0.8em;
+	}
+}
+/*INTERIOR*/
+
+.interior {
+	padding: 70px 0 30px;
+
+}
+
+.exterior {
+	padding: 70px 0 70px;
+	background: #6495ED;
+	background-size: cover;
+	width: 100%;
+	border: 2px solid #c9c9c9;
+}
+
+.location {
+	padding: 70px 0 70px;
+}
+
+.contact {
+ padding:60px 0 60px;
+ text-align:center;
+}
+
+.contact h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+}
+
+.contact .fab {
+ color:#1c3f5c;
+ padding:20px 20px 40px;
+}
+
+.contact li {
+ padding-top: 10px;
+}
+
+/*LOCATION*/
+.col-sm-3 {
+padding:70px 0 70px;
+text-align:center;
+} 
